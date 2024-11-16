@@ -1,0 +1,70 @@
+# Arquivos de compilação do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais
+venv/
+env/
+ENV/
+.venv/
+.pyenv/
+pip-selfcheck.json
+
+# Dependências instaladas
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Configurações de IDEs e editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ferramentas de teste e depuração
+.coverage
+*.cover
+.hypothesis/
+.pytest_cache/
+.tox/
+.nox/
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.bak
+*.swp
+*.lock
+
+# Configurações específicas de containers e builds
+.dockerignore
+*.dockerfile
+*.tar
+
+# Configurações de ambientes locais
+.env
+.env.*
+*.secret
+
+# Arquivos de lint
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Configurações de cache
+.cache/
+.eggs/
+
+# Arquivos gerados por notebooks
+.ipynb_checkpoints/
+
+# Configurações de servidor e deploy
+instance/
